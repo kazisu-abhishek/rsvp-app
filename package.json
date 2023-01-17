@@ -1,0 +1,11 @@
+{
+  "name": "rsvp-app",
+  "version": "0.1.0",
+  "description": "An app that uses a web form to process RSVPs and then further processes the collected data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kazisu LLC",
+  "license": "ISC"
+}
