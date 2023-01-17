@@ -1,0 +1,39 @@
+<head>
+    <link rel="stylesheet" href="form.css">
+</head>
+<form id="rsvp-form" class="rsvp-form">
+    <input type="text" id="name" name="name" required placeholder="Name">
+    <br>
+    <input type="email" id="email" name="email" required placeholder="Email">
+    <br>
+    <input type="date" id="dob" name="dob" required placeholder="Date of Birth">
+    <br>
+    <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+    <br>
+    <label for="datetime">Preferred Date and Time:</label>
+    <select id="datetime" name="datetime" required placeholder="Select a date and time">
+        <option value="" disabled selected>Select a date and time</option>
+        <option value="2022-05-01T10:00">May 1st, 10:00 AM</option>
+        <option value="2022-05-02T14:00">May 2nd, 2:00 PM</option>
+        <option value="2022-05-03T18:00">May 3rd, 6:00 PM (Join Waitlist)</option>
+        <option value="2022-05-04T20:00">May 4th, 8:00 PM</option>
+    </select>
+    <br>
+    <label for="option1">Option 1:</label>
+    <input type="radio" id="option1" name="options" value="option1">
+    <br>
+    <label for="option2">Option 2:</label>
+    <input type="radio" id="option2" name="options" value="option2">
+    <br>
+    <input type="submit" value="RSVP">
+</form>
+<script src="form.js"></script>
+<script src="emailValidation.js"></script>
+<!-- <script src="gapi.js"></script> -->
+<script src="twillo.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="htmlToPDF.js"></script> -->
+
+
+
