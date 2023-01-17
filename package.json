@@ -4,8 +4,8 @@
   "description": "An app that uses a web form to process RSVPs and then further processes the collected data",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Kazisu LLC",
   "license": "ISC",
